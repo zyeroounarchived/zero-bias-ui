@@ -108,7 +108,7 @@ export default function Home() {
               <div className="flex justify-between items-center border-b-[2px] border-[#0A0A0A] dark:border-[#E8E6E3] p-4 bg-[#0A0A0A] text-[#F4F1EA] dark:bg-[#E8E6E3] dark:text-[#0A0A0A]">
                 <h2 className="font-mono text-sm uppercase font-bold">Evaluation Results</h2>
                 <span className="font-mono text-xs uppercase bg-[#D95D39] text-white px-2 py-1">
-                  Score: {result.readiness_score}/10
+                  Score: {result.readiness_score}/100
                 </span>
               </div>
               
